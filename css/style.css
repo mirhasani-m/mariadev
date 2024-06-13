@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "IRANSansWeb";
+    src: url("../fonts/IRANSansWeb/IRANSansWeb.woff");
+    src: url("../fonts/IRANSansWeb/IRANSansWeb_Black.woff");
+    src: url("../fonts/IRANSansWeb/IRANSansWeb_Bold.woff");
+    src: url("../fonts/IRANSansWeb/IRANSansWeb_Light.woff");
+    src: url("../fonts/IRANSansWeb/IRANSansWeb_Medium.woff");
+  }
+  @font-face {
+    font-family: "Morabba";
+    src: url("../fonts/Morabba/Morabba-Black.woff");
+    src: url("../fonts/Morabba/Morabba-Bold.woff");
+    src: url("../fonts/Morabba/Morabba-Light.woff");
+    src: url("../fonts/Morabba/Morabba-Medium.woff");
+    src: url("../fonts/Morabba/Morabba-Regular.woff");
+  }
+  @font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir/Vazir-Light.woff");
+    src: url("../fonts/Vazir/Vazir-Bold.woff");
+    src: url("../fonts/Vazir/Vazir-Medium.woff");
+    src: url("../fonts/Vazir/Vazir-Thin.woff");
+    src: url("../fonts/Vazir/Vazir.woff");
+  }
+
+
+
+header{
+    background-image: url(/img/views/header-img2.png);
+    background-size: cover;
+    height: 900px;
+    font-family: "Morabba";
+    color: white;
+}
