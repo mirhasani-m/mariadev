@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 540px) {
+    .Header-menu{
+        text-align: right;
+    }
+    .maria a{
+        padding:5px;
+        text-align: left;
+    }
+    .list-menu {
+        display: block;
+      }
+}

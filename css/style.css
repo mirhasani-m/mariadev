@@ -22,13 +22,37 @@
     src: url("../fonts/Vazir/Vazir-Thin.woff");
     src: url("../fonts/Vazir/Vazir.woff");
   }
-
-
-
-header{
+/*header*/
+  header{
     background-image: url(/img/views/header-img2.png);
     background-size: cover;
     height: 900px;
-    font-family: "Morabba";
-    color: white;
+}
+/*Header-Top*/
+.Header-Top{
+  background-color: #232222;
+  font-family: "Morabba";
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+.Header-menu{
+  padding-bottom: 10px;
+ }
+.list-menu{
+  display:inline-flex;
+  list-style-type: none;
+  font-size: large;
+  }
+.list-menu li{
+  padding-right: 30px;
+}
+
+.maria {
+  font-size:25px;
+}
+.maria a{
+  text-align: right;
+  text-decoration: none;
+  color: white; 
 }
