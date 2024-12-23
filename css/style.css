@@ -24,7 +24,7 @@
   }
 /*header*/
   header{
-    background-image: url(/img/views/header-img2.png);
+    background-color:#ffffff;
     background-attachment: fixed;
     background-size: cover;
     height: 900px;
@@ -57,8 +57,11 @@
   text-decoration: none;
   color: white; 
 }
-/*main*/
-.main{
-  height: 500px;
-  background-color: bisque;
+.Porofile img{
+  float: left;
+  width: 30%;
+}
+.container{
+  justify-content: center;
+  padding-top: 50px;
 }
