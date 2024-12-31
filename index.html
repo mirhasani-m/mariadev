@@ -1,43 +1,69 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/style-tablet-mobile.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/drawer.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <div class="row Header-Top">
-            <div class="col-10 col-sm-8   Header-menu">
-                <nav >
-                    <ul class="list-menu">
-                        <li >خانه</li>
-                        <li>درباره من</li>
-                        <li>سرویس ها</li>
-                        <li>رزومه </li>
-                        <li>نمونه کارها </li>
-                        <li>مقالات</li>
-                        <li>تماس با من</li>
-                    </ul>
-                </nav>
+        <header >
+            <div class="row  Header-Top">
+                <div class="col-2 "> <button onclick="openDrawer()" class="btn-drawer" >دسته بندی</button>
+                </div>
+                <div class="col-8  Header-menu">
+                    <nav>
+                        <ul class="list-menu">
+                            <li>خانه</li>
+                            <li>درباره من</li>
+                            <li>سرویس ها</li>
+                            <li>رزومه </li>
+                            <li>نمونه کارها </li>
+                            <li>مقالات</li>
+                            <li>تماس با من</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-2  maria"><a href="/"><h3>Maria</h3></a></div> 
             </div>
-            <div class="col-2  col-sm-4  maria"><a href="/">Maria</a></div>
+           <div class="row Header-Bottom">
+                    <div class="col"></div>
+                    <div class="col-3 Porofile-bio">
+                        <h3>سلام! من هستم</h3><br>
+                        <h1>ماریا</h1><br>
+                        <h3>من هستم یک <span>توسعه دهنده وب</span></h3><br>
+                        <button class="btn-primary">ارسال پیام</button>
+                    </div>
+                    <div class="col-3 Porofile-img">
+                       <img src="img/man.png" alt="">
+                    </div>
+                    <div class="col"></div>
+            </div> 
+        </header>
+        <div class=" Drawer">
+            <nav>
+                <ul class="list-menu-drawer ">
+                    <li>خانه</li>
+                    <li>درباره من</li>
+                    <li>سرویس ها</li>
+                    <li>رزومه </li>
+                    <li>نمونه کارها </li>
+                    <li>مقالات</li>
+                    <li>تماس با من</li>
+                </ul>
+            </nav>
         </div>
-       <div class="container">
-        <div class="Porofile">
-            <img src="img/man.png" alt="">
-            <h3>سلام! من هستم</h3>
-            <h1>ماریا</h1>
-            <h3>من هستم یک  <span>توسعه دهنده وب</span></h3>
-            <button>ارسال پیام</button>
-        </div>
-        <div></div>
-       </div>
-    </header>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/drawe.js"></script>
 </body>
+
 </html>

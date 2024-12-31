@@ -30,38 +30,36 @@
     height: 900px;
 }
 /*Header-Top*/
-.Header-Top{
+.Header-Top {
   background-color: #232222;
   font-family: "Morabba";
   color: white;
-  padding-top: 20px;
   text-align: center;
+  padding-top: 20px;
 }
-.Header-menu{
-  padding-bottom: 10px;
- }
+
 .list-menu{
   display:inline-flex;
   list-style-type: none;
-  font-size: large;
   }
 .list-menu li{
-  padding-right: 30px;
+  padding-right: 20px;
+}
+.Header-Bottom{
+  padding-top: 50px;
 }
 
-.maria {
-  font-size:25px;
+.Porofile-img img{
+  width: 100%;  
+  border-radius: 1000px;
+}
+.Porofile-bio {
+  padding-top: 50px;
+}
+.btn-drawer{
+  margin-right: 20px;
 }
 .maria a{
-  text-align: right;
-  text-decoration: none;
-  color: white; 
-}
-.Porofile img{
-  float: left;
-  width: 30%;
-}
-.container{
-  justify-content: center;
-  padding-top: 50px;
+ text-decoration: none;
+ color: #ffffff;
 }
