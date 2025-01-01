@@ -1,0 +1,11 @@
+h6{
+    height: 0;
+    overflow: hidden;
+    background-color: blanchedalmond;
+    transition:all 600ms;
+  }
+  .openBio{
+    padding: 20px;
+    height: auto;
+    transition:all 1s;
+  }
